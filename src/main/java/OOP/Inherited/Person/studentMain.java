@@ -21,8 +21,8 @@ public class studentMain extends Person {
 
     public static void hocBong() {
         System.out.print("Nhap diem trung binh cua sinh vien: ");
-        sv1.diemTB = input.nextInt();
-        if (sv1.diemTB >= 8) {
+        diemTB = input.nextInt();
+        if (diemTB >= 8) {
             System.out.print("Sinh vien du dieu kien nhan hoc bong");
         } else {
             System.out.print("Sinh vien khong du dieu kien nhan hoc bong");
