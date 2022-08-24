@@ -1,4 +1,4 @@
-package OOP;
+package OOP.OOP1;
 
 // Khoi tao Class HCN
 public class HCN {

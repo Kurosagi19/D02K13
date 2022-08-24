@@ -1,4 +1,4 @@
-package OOP;
+package OOP.OOP1;
 
 // Khoi tao class conNguoi
 public class conNguoi {
