@@ -1,4 +1,4 @@
-package OOP.Inherited;
+package OOP.Inherited.CongTy;
 
 import java.util.Scanner;
 

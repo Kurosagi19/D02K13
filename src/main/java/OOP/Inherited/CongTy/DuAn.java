@@ -1,4 +1,4 @@
-package OOP.Inherited;
+package OOP.Inherited.CongTy;
 
 public class DuAn extends CongTy {
     public String congViec = "Len ke hoach du an";

@@ -1,4 +1,4 @@
-package OOP.Inherited;
+package OOP.Inherited.CongTy;
 
 public class kethuaMain {
     public static void main(String[] args) {

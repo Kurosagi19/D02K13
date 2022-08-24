@@ -1,4 +1,4 @@
-package OOP.Inherited;
+package OOP.Inherited.CongTy;
 
 public class CongTy {
     public String diaChi = "Black Pearl";

@@ -1,4 +1,4 @@
-package OOP.Inherited;
+package OOP.Inherited.CongTy;
 
 public class BaoVe extends CongTy {
     public String congViec = "bao ve thuyen";
