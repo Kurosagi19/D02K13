@@ -7,6 +7,9 @@
 // - Đa kế thừa (không có trong java): 1 cha, nhiều con
 //                                     1 class, nhiều cha
 
-// Đa hình
+// Đa hình:
+// Overloading: nạp chồng: trong 1 class tồn tại nhiều method có tên giống nhau nhưng tham số khác nhau
+// Overridding: ghi đè:
+
 // Đóng gói
 // Trừu tượng
