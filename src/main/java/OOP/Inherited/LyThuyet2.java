@@ -11,5 +11,12 @@
 // Overloading: nạp chồng: trong 1 class tồn tại nhiều method có tên giống nhau nhưng tham số khác nhau
 // Overridding: ghi đè:
 
-// Đóng gói
+// Đóng gói: thể hiện phạm vi có thể sử dụng của class, method, atribute
+//           Access Modifier: public: dùng mọi nơi
+//                            default: chỉ dùng trong package
+//                            protected: dùng trong class, package, ngoài package nhưng trong class con
+//                            private: chỉ dùng trong class chứa nó
+// Thuộc tính có private có thể dùng getter, setter để làm việc trực tiếp từ bên ngoài
+// Phương thức có private bắt buộc phải sử dụng trong class
+
 // Trừu tượng

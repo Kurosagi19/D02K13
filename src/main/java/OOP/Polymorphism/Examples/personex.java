@@ -1,4 +1,4 @@
-package OOP.Polymorphism;
+package OOP.Polymorphism.Examples;
 
 public class personex {
     public String name;
