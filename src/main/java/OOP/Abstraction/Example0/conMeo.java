@@ -1,4 +1,4 @@
-package OOP.Abstraction;
+package OOP.Abstraction.Example0;
 
 public class conMeo extends dongVat{
     @Override

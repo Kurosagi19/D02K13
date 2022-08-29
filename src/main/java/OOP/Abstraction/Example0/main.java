@@ -1,4 +1,4 @@
-package OOP.Abstraction;
+package OOP.Abstraction.Example0;
 
 public class main {
     public static void main(String[] args) {

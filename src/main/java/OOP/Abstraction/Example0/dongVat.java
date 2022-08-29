@@ -1,4 +1,4 @@
-package OOP.Abstraction;
+package OOP.Abstraction.Example0;
 
 public abstract class dongVat {
     public String noiSong = "Trai Dat";

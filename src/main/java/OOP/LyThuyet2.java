@@ -29,5 +29,19 @@
 //                                  Abstract method: là một loại method, chỉ có phần khai báo, không có phần thân
 //                                                   khi extends, các abstract method bắt buộc phải override
 // Khai báo abstract class:
-//
-//   + Trừu tượng toàn phần
+//      <Access Modifier> abstract class <tên class>
+//              thuộc tính;
+//              Method thông thường;
+//              Abstract Method;
+// Khai báo abstract method:
+//      <Access Modifier> abstract <kiểu dữ liệu> <tên method>(<tham số>);
+//   + Trừu tượng toàn phần: Interface => chỉ chứa abstract class, không chứa các method
+//Tạo Interface:
+//    <Access Modifier> interface <tên interface> {
+//            phương thức trừu tượng
+//    }
+// Class => extends 1 class
+// Interface => implement
+// Interface có thể implements 1 interface khác
+// Class cũng có thể implements 1 hoặc nhiều interface
+
