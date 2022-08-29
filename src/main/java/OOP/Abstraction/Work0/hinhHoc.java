@@ -8,3 +8,4 @@ public interface hinhHoc {
     public abstract void tinhChuVi();
     public abstract void tinhDienTich();
 }
+

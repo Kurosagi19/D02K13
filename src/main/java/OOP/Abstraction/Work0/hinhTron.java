@@ -11,14 +11,14 @@ public class hinhTron implements hinhHoc{
     @Override
     public void tinhChuVi() {
         double chuvi;
-        chuvi = bankinh * 2 * 3.14;
+        chuvi = bankinh * 2 * Math.PI;
         System.out.println("Chu vi la: " + chuvi);
     }
 
     @Override
     public void tinhDienTich() {
         double dientich;
-        dientich = bankinh * bankinh * 3.14;
+        dientich = bankinh * bankinh * Math.PI;
         System.out.println("Dien tich la: " + dientich);
     }
 }
