@@ -19,4 +19,15 @@
 // Thuộc tính có private có thể dùng getter, setter để làm việc trực tiếp từ bên ngoài
 // Phương thức có private bắt buộc phải sử dụng trong class
 
-// Trừu tượng
+// Trừu tượng: để xây dựng nên những thứ chung nhất của chương trình (khung)
+// Tùy theo từng class sẽ triển khai nhưng thứ chung đó
+// - 2 loại:
+//   + Bán trừu tượng: thể hiển qua abstract class => abstract method: phương thức trừu tượng
+//                                  Abstract class: thuộc tính, phương thức bình thường, phương thức trừu tượng
+//                                                  không thể tạo đối tượng cho abstract class
+//                                                  các abstract class có thể được kế thừa
+//                                  Abstract method: là một loại method, chỉ có phần khai báo, không có phần thân
+//                                                   khi extends, các abstract method bắt buộc phải override
+// Khai báo abstract class:
+//
+//   + Trừu tượng toàn phần
