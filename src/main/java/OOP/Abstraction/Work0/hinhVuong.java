@@ -11,11 +11,15 @@ public class hinhVuong implements hinhHoc{
 
     @Override
     public void tinhChuVi() {
-
+        double chuvi;
+        chuvi = canh * 4;
+        System.out.println("Chu vi la: " + chuvi);
     }
 
     @Override
     public void tinhDienTich() {
-
+        double dientich;
+        dientich = canh * canh;
+        System.out.println("Dien tich la: " + dientich);
     }
 }
