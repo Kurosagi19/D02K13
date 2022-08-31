@@ -38,7 +38,7 @@ public class Teacher extends Person {
     }
 
     public void tinhLuong() {
-        luongTheoGio = luongCoBan * soGioLam;
-        System.out.println("Tong so luong: " + luongTheoGio);
+        luongCoBan = luongTheoGio * soGioLam;
+        System.out.println("Tong so luong: " + luongCoBan);
     }
 }
