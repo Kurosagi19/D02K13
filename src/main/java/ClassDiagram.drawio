@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T02:03:25.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70" etag="ySs3koIinLWG6BE8Pwbk" version="20.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-31T02:08:47.686Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70" etag="GmAFPQuRfIC9NOArdt0J" version="20.2.5" type="github" pages="2">
   <diagram id="9yQxBd88WESOBBPPKUYm" name="Trang-1">
     <mxGraphModel dx="1374" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -177,16 +177,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xhxp1pAOnVoIleIqqSFP-26" value="hinhTru" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="910" y="280" width="220" height="140" as="geometry" />
+          <mxGeometry x="910" y="280" width="260" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="xhxp1pAOnVoIleIqqSFP-27" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xhxp1pAOnVoIleIqqSFP-26">
-          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        <mxCell id="xhxp1pAOnVoIleIqqSFP-27" value="+ chieuCao: double&#xa;+ day: hinhTron" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xhxp1pAOnVoIleIqqSFP-26">
+          <mxGeometry y="26" width="260" height="44" as="geometry" />
         </mxCell>
         <mxCell id="xhxp1pAOnVoIleIqqSFP-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="xhxp1pAOnVoIleIqqSFP-26">
-          <mxGeometry y="52" width="220" height="8" as="geometry" />
+          <mxGeometry y="70" width="260" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="xhxp1pAOnVoIleIqqSFP-29" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xhxp1pAOnVoIleIqqSFP-26">
-          <mxGeometry y="60" width="220" height="80" as="geometry" />
+        <mxCell id="xhxp1pAOnVoIleIqqSFP-29" value="+ dienTichXungQuanh(double, hinhTron): void&#xa;+ theTich(double, hinhTron): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xhxp1pAOnVoIleIqqSFP-26">
+          <mxGeometry y="78" width="260" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
