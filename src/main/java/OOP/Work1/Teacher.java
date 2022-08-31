@@ -27,14 +27,28 @@ public class Teacher extends Person {
         input.nextLine();
         System.out.print("Chuyen nganh: ");
         chuyenNganh = input.nextLine();
-        System.out.print("Luong co ban: ");
-        luongCoBan = input.nextDouble();
+        System.out.print("Luong theo gio: ");
+        luongTheoGio = input.nextDouble();
         System.out.print("So gio lam: ");
         soGioLam = input.nextDouble();
+        System.out.print("Nhap thang :");
+        thang = input.nextDouble();
+        System.out.print("Nhap nam: ");
+        nam = input.nextDouble();
     }
 
-    public void hienThiThongTin() {
-        System.out.println(super.toString());
+    public String toString() {
+        return "Giao vien" + '\n' +
+                "Ho va Ten: " + ten + '\n' +
+                "Gioi tinh: " + gioiTinh + '\n' +
+                "Dia chi: " + diaChi + '\n' +
+                "Ngay sinh: " + ngaySinh + '\n' +
+                "Email: " + email + '\n' +
+                "So Can Cuoc: " + canCuoc + '\n' +
+                "Chuyen nganh: " + chuyenNganh + '\n' +
+                "Luong co ban: " + luongCoBan + '\n' +
+                "Luong theo gio: " + luongTheoGio + '\n' +
+                "So gio lam: " + soGioLam + '\n';
     }
 
     public void tinhLuong() {
