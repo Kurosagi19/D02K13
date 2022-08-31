@@ -1,6 +1,9 @@
 package OOP.Abstraction.Work0;
 
+import  java.util.Scanner;
+
 public class hinhVuong implements hinhHoc{
+    Scanner input = new Scanner(System.in);
     public double canh;
 
     @Override

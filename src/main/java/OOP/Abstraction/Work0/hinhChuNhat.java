@@ -1,6 +1,9 @@
 package OOP.Abstraction.Work0;
 
+import java.util.Scanner;
+
 public class hinhChuNhat implements hinhHoc{
+    Scanner input = new Scanner(System.in);
     public double chieuDai;
     public double chieuRong;
 
