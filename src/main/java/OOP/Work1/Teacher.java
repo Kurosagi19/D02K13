@@ -24,6 +24,7 @@ public class Teacher extends Person {
         canCuoc = input.nextDouble();
         System.out.print("Email: ");
         email = input.nextLine();
+        input.nextLine();
         System.out.print("Chuyen nganh: ");
         chuyenNganh = input.nextLine();
         System.out.print("Luong co ban: ");
