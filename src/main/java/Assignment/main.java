@@ -2,7 +2,7 @@ package Assignment;
 
 public class main  {
     public static void main(String[] args) {
-        phone p1 = new phone();
+        phones p1 = new phones();
         p1.phoneInsert();
     }
 }

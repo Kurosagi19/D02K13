@@ -2,7 +2,7 @@ package Assignment;
 
 import java.util.Scanner;
 
-public class phone {
+public class phones {
 
     public static Scanner input = new Scanner(System.in);
     public String phoneName;
