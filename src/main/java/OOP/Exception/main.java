@@ -10,6 +10,13 @@ public class main {
         a = input.nextInt();
         System.out.print("b = ");
         b = input.nextInt();
-        System.out.println("a / b " + a / b);
+        try {
+            double thuong;
+            thuong = a / b;
+            System.out.println("a / b = " + thuong);
+        }
+        catch (Exception ex) {
+            System.out.println("Phat hien Exception");
+        }
     }
 }
