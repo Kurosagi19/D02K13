@@ -3,6 +3,7 @@ package Assignment;
 import java.util.Scanner;
 
 public class phone {
+
     public static Scanner input = new Scanner(System.in);
     public String phoneName;
     public String manufacturer;
@@ -15,7 +16,7 @@ public class phone {
     public String screenSize;
     public String phoneSize;
 
-//    Nhap thong tin thiet bi
+    //    Nhap thong tin thiet bi
     public void phoneInsert() {
         System.out.println("Nhap thong tin thiet bi:");
         System.out.print("Nhap ten dien thoai: ");
@@ -40,7 +41,7 @@ public class phone {
         phoneSize = input.nextLine();
     }
 
-//    Hien thi toan bo thiet bi
+    //    Hien thi toan bo thiet bi
     public String phoneDisplay() {
         return "Phone" + '\n' +
                 "Nha san xuat: " + manufacturer + '\n' +
@@ -55,3 +56,4 @@ public class phone {
                 "Gia: " + price + '\n';
     }
 }
+
