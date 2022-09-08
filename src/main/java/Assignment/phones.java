@@ -7,7 +7,7 @@ public class phones {
     public static Scanner input = new Scanner(System.in);
     public String phoneName;
     public String manufacturer;
-    public double phoneIMEI;
+    public String phoneIMEI;
     public double price;
     public String releaseDate;
     public double RAM;
@@ -18,28 +18,30 @@ public class phones {
 
     //    Nhap thong tin thiet bi
     public void phoneInsert() {
-        System.out.println("Nhap thong tin thiet bi:");
+        System.out.println("===== Nhap thong tin thiet bi =====");
         System.out.print("Nhap ten dien thoai: ");
         phoneName = input.nextLine();
         System.out.print("Nha phat hanh: ");
         manufacturer = input.nextLine();
         System.out.print("IMEI: ");
-        phoneIMEI = input.nextDouble();
-        System.out.print("Nhap gia ban: ");
-        price = input.nextDouble();
-        System.out.print("Ngay phat hanh: ");
-        releaseDate = input.nextLine();
-        System.out.print("Nhap RAM: ");
-        RAM = input.nextDouble();
-        System.out.print("Nhap ROM: ");
-        ROM = input.nextDouble();
+        phoneIMEI = input.nextLine();
         System.out.print("Nhap loai chip: ");
         chip = input.nextLine();
         System.out.print("Kich co man hinh: ");
         screenSize = input.nextLine();
         System.out.print("Kich co dien thoai: ");
         phoneSize = input.nextLine();
+        System.out.print("Nhap RAM: ");
+        RAM = input.nextDouble();
+        System.out.print("Nhap ROM: ");
+        ROM = input.nextDouble();
+        System.out.print("Nhap gia ban: ");
+        price = input.nextDouble();
+        System.out.print("Ngay phat hanh: ");
+        releaseDate = input.nextLine();
+        input.nextLine();
     }
+
 
     //    Hien thi toan bo thiet bi
     public String phoneDisplay() {
