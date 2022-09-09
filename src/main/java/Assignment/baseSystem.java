@@ -39,7 +39,7 @@ public class baseSystem {
                         System.out.println("4. Hien thi tat ca thiet bi");
                         p1.phoneDisplay();
                         break;
-                }
+                } break;
             case 2:
                 System.out.println("===== Cong cu chinh sua =====");
                 System.out.println("1. Loc theo nha san xuat");
@@ -61,7 +61,7 @@ public class baseSystem {
                     case 4:
                         System.out.println("4. Sap xep theo gia");
                         break;
-                }
+                } break;
         }
     }
 }
