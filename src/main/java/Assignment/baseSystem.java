@@ -37,7 +37,7 @@ public class baseSystem {
                         break;
                     case 4:
                         System.out.println("4. Hien thi tat ca thiet bi");
-                        p1.phoneDisplay();
+                        System.out.println(p1.phoneDisplay());
                         break;
                 } break;
             case 2:
