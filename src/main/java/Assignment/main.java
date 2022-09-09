@@ -11,7 +11,6 @@ public class main {
         int caseMain;
         int casePhone;
         int caseTool;
-        phones p1 = new phones();
         System.out.println("===== Chuong trinh quan ly dien thoai =====");
         System.out.println("1. Quan ly thiet bi");
         System.out.println("2. Cong cu chinh sua");
@@ -30,7 +29,6 @@ public class main {
                 switch (casePhone) {
                     case 1:
                         System.out.println("1. Them thiet bi moi");
-                        p1.phoneInsert();
                         break;
                     case 2:
                         System.out.println("2. Cap nhat thong tin thiet bi");
@@ -40,7 +38,6 @@ public class main {
                         break;
                     case 4:
                         System.out.println("4. Hien thi tat ca thiet bi");
-//                        System.out.println(p1.phoneDisplay());
                         break;
                 } break;
             case 2:
