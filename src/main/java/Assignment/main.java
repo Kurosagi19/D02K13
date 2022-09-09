@@ -66,7 +66,7 @@ public class main {
                         break;
                 } break;
             case 3:
-                System.out.println("Ban da thoat chuong trinh");
+               break;
         }
     }
 }
