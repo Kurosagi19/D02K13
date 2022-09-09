@@ -8,16 +8,17 @@ public class main {
     public static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        int case1;
-        int case2;
-        int case3;
+        int caseMain;
+        int casePhone;
+        int caseTool;
         phones p1 = new phones();
         System.out.println("===== Chuong trinh quan ly dien thoai =====");
         System.out.println("1. Quan ly thiet bi");
         System.out.println("2. Cong cu chinh sua");
+        System.out.println("0. Thoat chuong trinh");
         System.out.print("Moi nhap lua chon: ");
-        case1 = input.nextInt();
-        switch (case1) {
+        caseMain = input.nextInt();
+        switch (caseMain) {
             case 1:
                 System.out.println("===== Quan ly thiet bi =====");
                 System.out.println("1. Them thiet bi moi");
@@ -25,8 +26,8 @@ public class main {
                 System.out.println("3. Xoa thiet bi");
                 System.out.println("4. Hien thi tat ca thiet bi");
                 System.out.print("Moi nhap lua chon: ");
-                case2 = input.nextInt();
-                switch (case2) {
+                casePhone = input.nextInt();
+                switch (casePhone) {
                     case 1:
                         System.out.println("1. Them thiet bi moi");
                         p1.phoneInsert();
@@ -49,8 +50,8 @@ public class main {
                 System.out.println("3. Loc theo gia");
                 System.out.println("4. Sap xep theo gia");
                 System.out.print("Moi nhap lua chon: ");
-                case3 = input.nextInt();
-                switch (case3) {
+                caseTool = input.nextInt();
+                switch (caseTool) {
                     case 1:
                         System.out.println("1. Loc theo nha san xuat");
                         break;
@@ -64,6 +65,8 @@ public class main {
                         System.out.println("4. Sap xep theo gia");
                         break;
                 } break;
+            case 3:
+                System.out.println("Ban da thoat chuong trinh");
         }
     }
 }
