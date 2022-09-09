@@ -29,6 +29,7 @@ public class main {
                 switch (casePhone) {
                     case 1:
                         System.out.println("1. Them thiet bi moi");
+
                         break;
                     case 2:
                         System.out.println("2. Cap nhat thong tin thiet bi");
