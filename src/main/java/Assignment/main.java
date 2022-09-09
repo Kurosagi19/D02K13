@@ -65,7 +65,8 @@ public class main {
                         System.out.println("4. Sap xep theo gia");
                         break;
                 } break;
-            case 3:
+            case 0:
+                System.out.println("Da thoat chuong trinh");
                break;
         }
     }
