@@ -1,4 +1,4 @@
-package OOP.Work1;
+package OOP.Polymorphism.Work1;
 
 public class main {
     public static void main(String[] args) {

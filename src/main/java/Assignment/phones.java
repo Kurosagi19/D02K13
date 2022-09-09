@@ -1,5 +1,9 @@
 package Assignment;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class phones {
@@ -15,9 +19,10 @@ public class phones {
     public String chip;
     public String screenSize;
     public String phoneSize;
+    private String file;
 
     //    Nhap thong tin thiet bi
-    public void phoneInsert() {
+    public void phoneInsert() throws IOException {
         System.out.println("===== Nhap thong tin thiet bi =====");
         System.out.print("Nhap ten dien thoai: ");
         phoneName = input.nextLine();
@@ -44,18 +49,18 @@ public class phones {
 
 
     //    Hien thi toan bo thiet bi
-    public String phoneDisplay() {
-        return "Phone" + '\n' +
-                "Nha san xuat: " + manufacturer + '\n' +
-                "Ten dien thoai: " + phoneName + '\n' +
-                "IMEI: " + phoneIMEI + '\n' +
-                "RAM: " + RAM + '\n' +
-                "ROM: " + ROM + '\n' +
-                "Loai chip: " + chip + '\n' +
-                "Kich thuoc man hinh: " + screenSize + '\n' +
-                "Kich thuoc dien thoai: " + phoneSize + '\n' +
-                "Ngay phat hanh: " + releaseDate + '\n' +
-                "Gia: " + price + '\n';
-    }
+//    public String phoneDisplay() {
+//        return "Phone" + '\n' +
+//                "Nha san xuat: " + manufacturer + '\n' +
+//                "Ten dien thoai: " + phoneName + '\n' +
+//                "IMEI: " + phoneIMEI + '\n' +
+//                "RAM: " + RAM + '\n' +
+//                "ROM: " + ROM + '\n' +
+//                "Loai chip: " + chip + '\n' +
+//                "Kich thuoc man hinh: " + screenSize + '\n' +
+//                "Kich thuoc dien thoai: " + phoneSize + '\n' +
+//                "Ngay phat hanh: " + releaseDate + '\n' +
+//                "Gia: " + price + '\n';
+//    }
 }
 

@@ -1,4 +1,4 @@
-package OOP.Work1;
+package OOP.Polymorphism.Work1;
 
 public class Teacher extends Person {
     public double canCuoc;
