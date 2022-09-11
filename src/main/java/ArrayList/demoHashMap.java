@@ -28,5 +28,12 @@ public class demoHashMap {
         for (String key : keyHashMap) {
             System.out.println(key + " => " + hashMap1.get(key));
         }
-    }
+/*        Tuong tu List va Set, Map cung co mot so phuong thuc
+            Tim kiem phan tu trong Map:
+                Tim kiem Key: containsKey()
+                Tim kiem theo Value: containsValue()
+            Xoa phan tu:
+                Xoa tung phan tu: remove(Key)
+                Xoa toan bo: clear()
+*/    }
 }
