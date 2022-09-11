@@ -43,5 +43,7 @@ public class demoArrayList {
         arrayList2.remove(0);
         // Xoa tat ca phan tu cua ArrayList
         arrayList2.clear();
+        // Lay gia tri
+        System.out.println(arrayListObj.get(0).chieuDai);
     }
 }
