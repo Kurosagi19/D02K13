@@ -22,7 +22,7 @@ public class phones {
     public String phoneSize;
 
     public phones() {
-
+        super();
     }
 
     public phones(String phoneName, String manufacturer, String phoneIMEI, double price, String releaseDate, double RAM, double ROM, String chip, String screenSize, String phoneSize) {
@@ -121,33 +121,48 @@ public class phones {
 
 
     //    Nhap thong tin thiet bi
-//    public void phoneInsert(){
+    public void phoneInsert() {
 //        System.out.println("===== Nhap thong tin thiet bi =====");
-//        System.out.print("Nhap ten dien thoai: ");
-//        phoneName = input.nextLine();
-//        System.out.print("Nha phat hanh: ");
-//        manufacturer = input.nextLine();
-//        System.out.print("IMEI: ");
-//        phoneIMEI = input.nextLine();
-//        System.out.print("Nhap loai chip: ");
-//        chip = input.nextLine();
-//        System.out.print("Kich co man hinh: ");
-//        screenSize = input.nextLine();
-//        System.out.print("Kich co dien thoai: ");
-//        phoneSize = input.nextLine();
-//        System.out.print("Nhap RAM: ");
-//        RAM = input.nextDouble();
-//        System.out.print("Nhap ROM: ");
-//        ROM = input.nextDouble();
-//        System.out.print("Nhap gia ban: ");
-//        price = input.nextDouble();
-//        System.out.print("Ngay phat hanh: ");
-//        releaseDate = input.nextLine();
-//        input.nextLine();
-//    }
+        System.out.print("Nhap ten dien thoai: ");
+        phoneName = input.nextLine();
+        System.out.print("Nha phat hanh: ");
+        manufacturer = input.nextLine();
+        System.out.print("IMEI: ");
+        phoneIMEI = input.nextLine();
+        System.out.print("Nhap loai chip: ");
+        chip = input.nextLine();
+        System.out.print("Kich co man hinh: ");
+        screenSize = input.nextLine();
+        System.out.print("Kich co dien thoai: ");
+        phoneSize = input.nextLine();
+        System.out.print("Nhap RAM: ");
+        RAM = input.nextDouble();
+        System.out.print("Nhap ROM: ");
+        ROM = input.nextDouble();
+        System.out.print("Nhap gia ban: ");
+        price = input.nextDouble();
+        System.out.print("Ngay phat hanh: ");
+        releaseDate = input.nextLine();
+        input.nextLine();
+    }
 
 
     //    Hien thi toan bo thiet bi
 
+    @Override
+    public String toString() {
+        return "phones{" +
+                "Ten thiet bi: " + phoneName + '\n' +
+                ", Nha san xuat: " + manufacturer + '\n' +
+                ", IMEI: " + phoneIMEI + '\n' +
+                ", Gia ban: " + price +
+                ", Ngay phat hanh: " + releaseDate + '\n' +
+                ", RAM: " + RAM +
+                ", ROM: " + ROM +
+                ", Loai chip: " + chip + '\n' +
+                ", Kich thuoc man hinh: " + screenSize + '\n' +
+                ", Kich thuoc dien thoai: " + phoneSize + '\n' +
+                '}';
+    }
 }
 
