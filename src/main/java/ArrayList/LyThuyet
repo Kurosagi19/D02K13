@@ -1,0 +1,11 @@
+List, Set, Map gọi chung là Collection
+- ArrayList là tập hợp các phần tử không phân biệt kiểu dữ liệu
+- Có 2 kiểu:
++ ArrayList cùng kiểu dữ liệu
++ ArrayList không cùng kiểu dữ liệu
+- ArrayList có thể có số phần tử hoặc không có số phần tử
+=> String, Number, Object
+- Cách khai báo:
+
+
+- LinkedList

@@ -7,6 +7,14 @@ public class hinhChuNhat implements hinhHoc{
     public double chieuDai;
     public double chieuRong;
 
+    public hinhChuNhat() {
+
+    }
+
+    public hinhChuNhat(int chieuDai, int chieuRong) {
+
+    }
+
     @Override
     public void nhap() {
         System.out.print("Nhap chieu dai: ");
