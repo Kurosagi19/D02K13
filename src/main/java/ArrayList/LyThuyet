@@ -23,3 +23,24 @@ Set:
 = Giá trị của các phần tử là duy nhất
 = Lưu các phần tử không theo thứ tự
 = Không thể update giá trị của phần tử
+
+Map
+- HashMap:
+
+# HashMap
+= Lưu dữ liệu theo dạng key => value
+= Key là duy nhất
+= Value của các phần tử có thể bằng nhau
+= Key có thể chứa các kiểu dữ liệu String, int
+= Value có thể chứa các kiểu dữu liệu String, Number, Obj
+
+
+
+
+
+
+
+
+
+
+index = Key đặc biệt
